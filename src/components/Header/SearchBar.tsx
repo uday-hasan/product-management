@@ -15,7 +15,7 @@ const SearchBar = () => {
     <div className="flex-[4] border bg-background">
       <Input
         placeholder="Search product by name"
-        onChange={(e) => handleChange(e)}
+        onChange={(e) => handleChange(e.target.value)}
       />
     </div>
   );
